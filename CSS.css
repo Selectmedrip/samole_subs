@@ -1,0 +1,49 @@
+ .btn{      position: relative;
+            left: 15px;
+            width: 260px;
+            height: 45px;
+            border-radius: 10px;
+            grid-row: 4 /5;
+        }
+        .inputs{
+            background: White;
+            border-radius: 10px;
+            width: 300px;
+            display: grid;
+            grid-template-rows: 0.5fr 1fr 0.3fr 1fr 1fr;
+            
+        }
+        .email{
+            position: relative;
+            left: 15px;
+            border-radius: 10px;
+            text-align: left;
+            width: 255px;
+            height: 45px;
+            grid-row: 3 / 2;
+        }
+        .message {
+            font-size: 12px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            grid-row: 1 / 2;
+            text-align: right;
+            
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+.P{
+    text-align: center;
+    color:white;
+    font-size:64px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+        }
